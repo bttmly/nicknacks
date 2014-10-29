@@ -10,5 +10,8 @@
     "test": "mocha -R spec */**/test/*.js"
   },
   "author": "Nick Bottomley",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  }
 }
