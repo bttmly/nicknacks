@@ -1,13 +1,13 @@
 {
   "name": "nicknacks",
   "version": "0.0.1",
-  "description": "Little things that will help you.",
+  "description": "Little helpful things.",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R spec */**/*--test.js"
   },
   "author": "Nick Bottomley",
   "license": "MIT"
