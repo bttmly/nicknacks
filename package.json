@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha -R spec */**/*--test.js"
+    "test": "mocha -R spec */**/test/*.js"
   },
   "author": "Nick Bottomley",
   "license": "MIT"
